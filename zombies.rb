@@ -45,7 +45,7 @@ class Zombie
     end
 
     def encounter
-        if self.outrun_zombie? && self.survive_attack?
+        if self.outrun_zombie?
             puts "You escaped!"
         elsif self.survive_attack?
             puts "You became a zombie!"
