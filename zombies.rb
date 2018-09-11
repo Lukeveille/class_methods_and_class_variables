@@ -68,7 +68,7 @@ class Zombie
     attr_reader :strength
 end
 
-puts Zombie.all.inspect # []
+puts Zombie.all.inspect # [] 
 Zombie.new_day
 puts Zombie.all.inspect # [#<Zombie:0x005626ecc5ebd0 @speed=4, @strength=0>, #<Zombie:0x005626ecc5eba8 @speed=0, @strength=4>, #<Zombie:0x005626ecc5eb80 @speed=4, @strength=4>]
 zombie1 = Zombie.all[0]
