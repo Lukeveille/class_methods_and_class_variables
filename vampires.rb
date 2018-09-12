@@ -23,12 +23,13 @@ class Vampire
         return new_vampire
     end
 
-    # Instance methods
+    # Instance initial variables
     def initialize
         @drank_blood_today = false
         @in_coffin = true
     end
 
+    # Instance methods
     def drink_blood
         @drank_blood_today = true
     end
@@ -37,6 +38,7 @@ class Vampire
         @in_coffin = true
     end
 
+    # Attribute access
     attr_accessor :drank_blood_today
     attr_accessor :in_coffin
 end
